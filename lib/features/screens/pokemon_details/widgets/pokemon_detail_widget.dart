@@ -75,14 +75,14 @@ class _PokemonDetailWidgetState extends State<PokemonDetailWidget>
                 dividerColor: Colors.transparent,
                 indicatorWeight: 3.0,
                 indicatorColor: Colors.transparent,
-                labelColor: Theme.of(context).primaryColor,
-                tabs: [
+                labelColor: Colors.black,
+                tabs: const [
                   TabHeaderWidget(
-                      title: 'About', color: Theme.of(context).primaryColor),
+                      title: 'About', color: Colors.black),
                   TabHeaderWidget(
-                      title: 'Stats', color: Theme.of(context).primaryColor),
+                      title: 'Stats', color: Colors.black),
                   TabHeaderWidget(
-                      title: 'Similar', color: Theme.of(context).primaryColor),
+                      title: 'Similar', color:  Colors.black),
                 ]),
           ),
         ],

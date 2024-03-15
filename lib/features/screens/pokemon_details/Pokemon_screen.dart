@@ -45,6 +45,7 @@ class _PokemonDetailsScreenState extends State<PokemonDetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
         body: SizedBox(
       width: double.infinity,
       height: double.infinity,

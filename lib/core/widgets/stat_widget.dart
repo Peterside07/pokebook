@@ -30,7 +30,7 @@ class StatWidget extends StatelessWidget {
                 flex: 4,
                 child: TextWidget(
                   name,
-                  color: Theme.of(context).primaryColor.withOpacity(0.7),
+                  color: Colors.black.withOpacity(0.7),
                   fontSize: 16,
                 ),
               ),
@@ -51,7 +51,7 @@ class StatWidget extends StatelessWidget {
               Expanded(
                   child: TextWidget(
                 value.toStringAsFixed(0),
-                color: Theme.of(context).primaryColor,
+                color:  Colors.black,
                 textAlign: TextAlign.right,
                 fontWeight: fontWeightBold,
               )),

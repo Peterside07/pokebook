@@ -21,13 +21,13 @@ class TextPairWidget extends StatelessWidget {
           Expanded(
             flex: 2,
             child: TextWidget(name,
-                color: Theme.of(context).primaryColor.withOpacity(0.7)),
+                color: Colors.black.withOpacity(0.7)),
           ),
           Expanded(
               flex: 3,
               child: TextWidget(
                 value,
-                color: Theme.of(context).primaryColor,
+                color: Colors.black,
                 textAlign: valueTextAlign,
                 fontWeight: fontWeightBold,
               )),
