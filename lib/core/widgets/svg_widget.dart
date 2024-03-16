@@ -4,14 +4,12 @@ import 'package:flutter_svg/svg.dart';
 class SvgWidget extends StatefulWidget {
   final String? imageUrl;
   final double height;
-  //final double width;
   final bool withshadow;
 
   const SvgWidget(
       {Key? key,
       this.imageUrl,
       required this.height,
-      //required this.width,
       this.withshadow = true})
       : super(key: key);
 
@@ -30,7 +28,6 @@ class _SvgWidgetState extends State<SvgWidget> {
     return Container(
       padding: const EdgeInsets.all(8.0),
       height: widget.height,
-    //  width: double.infinity,
       child: SvgPicture.network(
         widget.imageUrl!,
         placeholderBuilder: (BuildContext context) => Container(
